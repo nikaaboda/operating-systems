@@ -1,0 +1,44 @@
+Default:
+Try 1: 
+Random global: 0/100 Wins, Time: 611.000000 ms
+Random drawer: 0/100 Wins, Time: 501.000000 ms
+Strategy global: 39/100 Wins, Time: 491.000000 ms
+Strategy drawer: 34/100 Wins, Time: 486.000000 ms
+
+Try 2:
+Random global: 0/100 Wins, Time: 651.000000 ms
+Random drawer: 0/100 Wins, Time: 502.000000 ms
+Strategy global: 39/100 Wins, Time: 472.000000 ms
+Strategy drawer: 34/100 Wins, Time: 476.000000 ms
+
+Try 3:
+Random global: 0/100 Wins, Time: 699.000000 ms
+Random drawer: 0/100 Wins, Time: 538.000000 ms
+Strategy global: 39/100 Wins, Time: 496.000000 ms
+Strategy drawer: 34/100 Wins, Time: 488.000000 ms
+
+With -s:
+Try 1:
+Random global: 0/100 Wins, Time: 655.000000 ms
+Random drawer: 0/100 Wins, Time: 491.000000 ms
+Strategy global: 25/100 Wins, Time: 499.000000 ms
+Strategy drawer: 32/100 Wins, Time: 479.000000 ms
+
+Try 2:
+Random global: 0/100 Wins, Time: 697.000000 ms
+Random drawer: 0/100 Wins, Time: 493.000000 ms
+Strategy global: 35/100 Wins, Time: 488.000000 ms
+Strategy drawer: 37/100 Wins, Time: 473.000000 ms
+
+Try 3:
+Random global: 0/100 Wins, Time: 662.000000 ms
+Random drawer: 0/100 Wins, Time: 494.000000 ms
+Strategy global: 39/100 Wins, Time: 490.000000 ms
+Strategy drawer: 29/100 Wins, Time: 481.000000 ms
+
+Conclusion: 
+Almost always global lock takes a bit more time than drawer lock, 
+but all in all time of the different methods differ only with couple of milliseconds
+which might be caused by the inaccuracy of the clock() function
+so we can assume time is more or less same for every method;
+(First method being the biggest might be cause because of reasons which aren't related to out problems)
